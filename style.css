@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(152, 144, 144);
+}
+#one_big_box_center{
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    background-color: white;
+    color: rgb(231, 101, 123);
+    font-weight: bolder;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+    text-align: center; 
+    font-style: italic;
+    box-shadow: 5px 5px purple;
+}
+.one h2{
+    text-shadow: 1.5px 1.5px grey;
+}
+
+#green{
+    border: 5px solid green;
+    height: 400px;
+}
+.one_lef_box{
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+}
+.one_lef_box p{
+    text-shadow: 1px 1px grey;
+}
+.lext_box_H{
+    text-align: center;
+}
+.two_lef_box{
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 5px 5px purple;
+}
+.two_lef_box p{
+    text-shadow: 1px 1px grey;
+}
+
+#green_right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    padding: 35px;
+    
+    
+}
+
+.one_right_box{
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+    position: absolute;
+    left: 86%;
+    top: 30%;
+}
+.image{
+    width: 100px;
+}
+.two_right_box{
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px purple;
+    position: absolute;
+    left: 86%;
+    top: 55%;
+}
+.two_right_box p{
+    text-shadow: 1px 1px grey;
+}
+.number{
+    width: 100px;
+    
+}
+.number_one{
+    width: 100px;
+    border-radius: 100px;
+    background-color: red;
+}
+
+#violet{
+    border: 5px solid purple;
+    width: 500px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+#violet h3{
+    text-align: center;
+}
+#a{
+    background-color: yellow;
+    float: left;
+    
+}
+#b{
+    background-color: yellow;
+    float: right;
+}
+.yellow h4{
+    text-align: center;
+    font-style: italic;
+}
+.yellow{
+    width: 150;
+    height: 150px;
+    border: 2px solid yellow;
+}
+.last{
+    background-color: yellow;
+}
+.last h4{
+    text-align: center;
+    font-style: italic;
+}
+.fix{
+    background-color: greenyellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    padding: 10px;
+}
+.cursive{
+    font-style: italic;
+    color: red;
+    text-align: center;
+}
